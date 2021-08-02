@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Reel Films Notification Client
+    </title>
+</head>
+<body>
+<div class="events"></div>
+<script>
+	var socket = new WebSocket('ws://localhost:8080/ws/films');
+  
+  socket.addEventListener('message', function (event) {
+    window.alert('message from server: ' + event.data);
+    console.log('message from server: ' + event.data);
+     document.querySelector(".events").innerHTML += event.data + "<br>";
+  });
+  console.log("Loaded message from server");
+  
+</script>
+</body>
+</html>
