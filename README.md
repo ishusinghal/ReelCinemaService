@@ -114,5 +114,5 @@ curl -X GET \
 MIT
 **Free Software, Hell Yeah!**
 ## Connect with me
-   |linkedin|: [https://www.linkedin.com/in/ishu-singhal199]
+   |linkedin|: [https://www.linkedin.com/in/ishu-singhal1990]
   
